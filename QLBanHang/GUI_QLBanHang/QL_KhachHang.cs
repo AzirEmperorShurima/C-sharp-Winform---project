@@ -190,6 +190,11 @@ namespace GUI_QLBanHang
             }
         }
 
+        private void rdoNam_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
 
         // thêm khách hàng
     }

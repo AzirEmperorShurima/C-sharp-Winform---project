@@ -49,5 +49,20 @@ namespace GUI_QLBanHang
             }
             else MessageBox.Show("Vui lòng nhập mật khẩu cũ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
+        private void txtMatKhauCu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhauMoi2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

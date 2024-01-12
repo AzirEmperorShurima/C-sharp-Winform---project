@@ -39,32 +39,35 @@ namespace GUI_QLBanHang
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label1.Location = new System.Drawing.Point(11, 108);
+            this.label1.Location = new System.Drawing.Point(15, 133);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 25);
+            this.label1.Size = new System.Drawing.Size(170, 29);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Vui lòng đợi!";
+            this.label1.Text = "Please Wait!!!";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI_QLBanHang.Properties.Resources.Pulse_1s_200px;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 103);
+            this.pictureBox1.Size = new System.Drawing.Size(196, 127);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // SendMail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Coral;
-            this.ClientSize = new System.Drawing.Size(151, 137);
+            this.ClientSize = new System.Drawing.Size(201, 169);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SendMail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Loading";

@@ -91,6 +91,7 @@ namespace GUI_QLBanHang
                         btnLogin.Text = "Đăng xuất";
                         btnLogin.CustomImages.Image = Properties.Resources.logout;
                     }//đăng nhập không thành công thì không làm gì
+                    MessageBox.Show("Lỗi !", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
@@ -159,6 +160,16 @@ namespace GUI_QLBanHang
         private void itemGioiThieu_Click(object sender, EventArgs e)
         {
             Process.Start("Gioithieu.txt");
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void panelControl_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

@@ -6,3 +6,12 @@ D:\Hoc Hanh\DAMAU\Project\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.csproj
 D:\Hoc Hanh\DAMAU\Project\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.csproj.CoreCompileInputs.cache
 D:\Hoc Hanh\DAMAU\Project\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.dll
 D:\Hoc Hanh\DAMAU\Project\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.pdb
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\bin\Debug\DAL_QLBanHang.dll
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\bin\Debug\DAL_QLBanHang.pdb
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\bin\Debug\DTO_QLBanHang.dll
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\bin\Debug\DTO_QLBanHang.pdb
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.csproj.AssemblyReference.cache
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.csproj.CoreCompileInputs.cache
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.csproj.CopyComplete
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.dll
+D:\Winform_CuaHangTienLoi\QLBanHang\DAL_QLBanHang\obj\Debug\DAL_QLBanHang.pdb

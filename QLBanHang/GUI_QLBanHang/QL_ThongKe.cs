@@ -37,12 +37,6 @@ namespace GUI_QLBanHang
             dataGridViewNhapKho.Columns[1].DividerWidth = 2;
             dataGridViewNhapKho.Columns[2].DividerWidth = 2;
 
-
-
-
-
-
-
         }
     }
 }

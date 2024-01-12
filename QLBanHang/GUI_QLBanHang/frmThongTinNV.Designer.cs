@@ -46,10 +46,11 @@ namespace GUI_QLBanHang
             // lblEmail
             // 
             this.lblEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
-            this.lblEmail.ForeColor = System.Drawing.Color.AliceBlue;
-            this.lblEmail.Location = new System.Drawing.Point(8, -1);
+            this.lblEmail.ForeColor = System.Drawing.Color.Black;
+            this.lblEmail.Location = new System.Drawing.Point(80, 11);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(287, 65);
+            this.lblEmail.Size = new System.Drawing.Size(383, 80);
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "AS";
             this.lblEmail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -58,20 +59,22 @@ namespace GUI_QLBanHang
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label2.Location = new System.Drawing.Point(12, 74);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(19, 112);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 21);
+            this.label2.Size = new System.Drawing.Size(147, 28);
             this.label2.TabIndex = 4;
             this.label2.Text = "Mã nhân viên: ";
             // 
             // lblmaNV
             // 
             this.lblmaNV.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.lblmaNV.ForeColor = System.Drawing.Color.Aqua;
-            this.lblmaNV.Location = new System.Drawing.Point(134, 74);
+            this.lblmaNV.ForeColor = System.Drawing.Color.Pink;
+            this.lblmaNV.Location = new System.Drawing.Point(304, 112);
+            this.lblmaNV.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmaNV.Name = "lblmaNV";
-            this.lblmaNV.Size = new System.Drawing.Size(157, 21);
+            this.lblmaNV.Size = new System.Drawing.Size(243, 26);
             this.lblmaNV.TabIndex = 4;
             this.lblmaNV.Text = "Tên nhân viên: ";
             // 
@@ -79,20 +82,22 @@ namespace GUI_QLBanHang
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label3.Location = new System.Drawing.Point(12, 108);
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(16, 164);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 21);
+            this.label3.Size = new System.Drawing.Size(151, 28);
             this.label3.TabIndex = 4;
             this.label3.Text = "Tên nhân viên: ";
             // 
             // lblTenNV
             // 
             this.lblTenNV.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.lblTenNV.ForeColor = System.Drawing.Color.Aqua;
-            this.lblTenNV.Location = new System.Drawing.Point(134, 108);
+            this.lblTenNV.ForeColor = System.Drawing.Color.Pink;
+            this.lblTenNV.Location = new System.Drawing.Point(304, 164);
+            this.lblTenNV.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTenNV.Name = "lblTenNV";
-            this.lblTenNV.Size = new System.Drawing.Size(157, 21);
+            this.lblTenNV.Size = new System.Drawing.Size(243, 26);
             this.lblTenNV.TabIndex = 4;
             this.lblTenNV.Text = "Tên nhân viên: ";
             // 
@@ -100,20 +105,22 @@ namespace GUI_QLBanHang
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label5.Location = new System.Drawing.Point(12, 143);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(16, 223);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 21);
+            this.label5.Size = new System.Drawing.Size(78, 28);
             this.label5.TabIndex = 4;
             this.label5.Text = "Địa chỉ:";
             // 
             // lblDiaChi
             // 
             this.lblDiaChi.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.lblDiaChi.ForeColor = System.Drawing.Color.Aqua;
-            this.lblDiaChi.Location = new System.Drawing.Point(134, 143);
+            this.lblDiaChi.ForeColor = System.Drawing.Color.Pink;
+            this.lblDiaChi.Location = new System.Drawing.Point(304, 223);
+            this.lblDiaChi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDiaChi.Name = "lblDiaChi";
-            this.lblDiaChi.Size = new System.Drawing.Size(157, 21);
+            this.lblDiaChi.Size = new System.Drawing.Size(243, 26);
             this.lblDiaChi.TabIndex = 4;
             this.lblDiaChi.Text = "Tên nhân viên: ";
             // 
@@ -121,20 +128,22 @@ namespace GUI_QLBanHang
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label7.Location = new System.Drawing.Point(12, 177);
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(19, 281);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 21);
+            this.label7.Size = new System.Drawing.Size(82, 28);
             this.label7.TabIndex = 4;
             this.label7.Text = "Vai trò: ";
             // 
             // lblVaiTro
             // 
             this.lblVaiTro.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.lblVaiTro.ForeColor = System.Drawing.Color.Aqua;
-            this.lblVaiTro.Location = new System.Drawing.Point(134, 177);
+            this.lblVaiTro.ForeColor = System.Drawing.Color.Pink;
+            this.lblVaiTro.Location = new System.Drawing.Point(304, 283);
+            this.lblVaiTro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVaiTro.Name = "lblVaiTro";
-            this.lblVaiTro.Size = new System.Drawing.Size(157, 21);
+            this.lblVaiTro.Size = new System.Drawing.Size(243, 26);
             this.lblVaiTro.TabIndex = 4;
             this.lblVaiTro.Text = "Tên nhân viên: ";
             // 
@@ -142,29 +151,31 @@ namespace GUI_QLBanHang
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label9.Location = new System.Drawing.Point(12, 211);
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(19, 340);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(92, 21);
+            this.label9.Size = new System.Drawing.Size(117, 28);
             this.label9.TabIndex = 4;
             this.label9.Text = "Tình trạng: ";
             // 
             // lblTinhTrang
             // 
             this.lblTinhTrang.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
-            this.lblTinhTrang.ForeColor = System.Drawing.Color.Aqua;
-            this.lblTinhTrang.Location = new System.Drawing.Point(134, 211);
+            this.lblTinhTrang.ForeColor = System.Drawing.Color.Pink;
+            this.lblTinhTrang.Location = new System.Drawing.Point(304, 342);
+            this.lblTinhTrang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTinhTrang.Name = "lblTinhTrang";
-            this.lblTinhTrang.Size = new System.Drawing.Size(157, 21);
+            this.lblTinhTrang.Size = new System.Drawing.Size(243, 26);
             this.lblTinhTrang.TabIndex = 4;
             this.lblTinhTrang.Text = "Tên nhân viên: ";
             // 
             // frmThongTinNV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(303, 257);
+            this.BackColor = System.Drawing.Color.IndianRed;
+            this.ClientSize = new System.Drawing.Size(603, 452);
             this.Controls.Add(this.lblTinhTrang);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.lblVaiTro);
@@ -178,6 +189,7 @@ namespace GUI_QLBanHang
             this.Controls.Add(this.lblEmail);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmThongTinNV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Thông tin nhân viên";

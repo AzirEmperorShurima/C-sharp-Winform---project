@@ -63,6 +63,26 @@ namespace GUI_QLBanHang
                     txtEmail.Focus();
                 }
             }
+            else if (txtEmail.Text == "" && txtMatKhau.Text != "")
+            {
+                    MessageBox.Show("Email không được để trống !", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    isSuccess = false;
+                    txtEmail.Text = "";
+                    txtEmail.Focus();
+            }
+            else if (txtEmail.Text = !"" && txtMatKhau.Text == "")
+            {
+                    MessageBox.Show("Mật Khẩu không được để trống !", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    isSuccess = false;
+                    txtMatKhau.Text = "";
+                    txtMatKhau.Focus();
+            }
+            else if (txtEmail.Text =="" && txtMatKhau.Text == "")
+            {
+                    MessageBox.Show("Email và Mật Khẩu không được để trống !", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    isSuccess = false;
+                    txtEmail.Focus();
+            }
         }
     
 
@@ -101,6 +121,26 @@ namespace GUI_QLBanHang
                 chkGhiNho.Checked = true;
                 btnDangNhap.Focus();
             }
+        }
+
+        private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

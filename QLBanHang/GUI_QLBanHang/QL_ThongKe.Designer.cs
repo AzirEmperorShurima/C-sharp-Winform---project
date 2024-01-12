@@ -47,12 +47,15 @@ namespace GUI_QLBanHang
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Pink;
             this.groupBox1.Controls.Add(this.dataGridViewTonKho);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.Coral;
-            this.groupBox1.Location = new System.Drawing.Point(8, 3);
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
+            this.groupBox1.Location = new System.Drawing.Point(11, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(896, 303);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1195, 373);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tồn kho";
@@ -85,15 +88,16 @@ namespace GUI_QLBanHang
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(220)))), ((int)(((byte)(239)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(220)))), ((int)(((byte)(239)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewTonKho.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewTonKho.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewTonKho.EnableHeadersVisualStyles = false;
-            this.dataGridViewTonKho.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(201)))), ((int)(((byte)(231)))));
-            this.dataGridViewTonKho.Location = new System.Drawing.Point(3, 23);
+            this.dataGridViewTonKho.GridColor = System.Drawing.Color.Red;
+            this.dataGridViewTonKho.Location = new System.Drawing.Point(4, 29);
+            this.dataGridViewTonKho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewTonKho.Name = "dataGridViewTonKho";
             this.dataGridViewTonKho.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridViewTonKho.RowHeadersVisible = false;
@@ -101,7 +105,7 @@ namespace GUI_QLBanHang
             this.dataGridViewTonKho.RowTemplate.DividerHeight = 2;
             this.dataGridViewTonKho.RowTemplate.Height = 30;
             this.dataGridViewTonKho.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewTonKho.Size = new System.Drawing.Size(890, 277);
+            this.dataGridViewTonKho.Size = new System.Drawing.Size(1187, 340);
             this.dataGridViewTonKho.TabIndex = 21;
             this.dataGridViewTonKho.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Indigo;
             this.dataGridViewTonKho.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(203)))), ((int)(((byte)(232)))));
@@ -110,7 +114,7 @@ namespace GUI_QLBanHang
             this.dataGridViewTonKho.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dataGridViewTonKho.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.dataGridViewTonKho.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dataGridViewTonKho.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(201)))), ((int)(((byte)(231)))));
+            this.dataGridViewTonKho.ThemeStyle.GridColor = System.Drawing.Color.Red;
             this.dataGridViewTonKho.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(81)))), ((int)(((byte)(181)))));
             this.dataGridViewTonKho.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dataGridViewTonKho.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,7 +125,7 @@ namespace GUI_QLBanHang
             this.dataGridViewTonKho.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(220)))), ((int)(((byte)(239)))));
             this.dataGridViewTonKho.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SunkenHorizontal;
             this.dataGridViewTonKho.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTonKho.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Coral;
+            this.dataGridViewTonKho.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.dataGridViewTonKho.ThemeStyle.RowsStyle.Height = 30;
             this.dataGridViewTonKho.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(220)))), ((int)(((byte)(239)))));
             this.dataGridViewTonKho.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
@@ -130,10 +134,12 @@ namespace GUI_QLBanHang
             // 
             this.groupBox2.Controls.Add(this.dataGridViewNhapKho);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.Coral;
-            this.groupBox2.Location = new System.Drawing.Point(8, 309);
+            this.groupBox2.ForeColor = System.Drawing.Color.Black;
+            this.groupBox2.Location = new System.Drawing.Point(11, 380);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(896, 303);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(1195, 373);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Sản phẩm nhập kho";
@@ -173,8 +179,9 @@ namespace GUI_QLBanHang
             this.dataGridViewNhapKho.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewNhapKho.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewNhapKho.EnableHeadersVisualStyles = false;
-            this.dataGridViewNhapKho.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(201)))), ((int)(((byte)(231)))));
-            this.dataGridViewNhapKho.Location = new System.Drawing.Point(3, 23);
+            this.dataGridViewNhapKho.GridColor = System.Drawing.Color.Red;
+            this.dataGridViewNhapKho.Location = new System.Drawing.Point(4, 29);
+            this.dataGridViewNhapKho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewNhapKho.Name = "dataGridViewNhapKho";
             this.dataGridViewNhapKho.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridViewNhapKho.RowHeadersVisible = false;
@@ -182,7 +189,7 @@ namespace GUI_QLBanHang
             this.dataGridViewNhapKho.RowTemplate.DividerHeight = 2;
             this.dataGridViewNhapKho.RowTemplate.Height = 30;
             this.dataGridViewNhapKho.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewNhapKho.Size = new System.Drawing.Size(890, 277);
+            this.dataGridViewNhapKho.Size = new System.Drawing.Size(1187, 340);
             this.dataGridViewNhapKho.TabIndex = 21;
             this.dataGridViewNhapKho.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Indigo;
             this.dataGridViewNhapKho.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(203)))), ((int)(((byte)(232)))));
@@ -191,7 +198,7 @@ namespace GUI_QLBanHang
             this.dataGridViewNhapKho.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dataGridViewNhapKho.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.dataGridViewNhapKho.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dataGridViewNhapKho.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(201)))), ((int)(((byte)(231)))));
+            this.dataGridViewNhapKho.ThemeStyle.GridColor = System.Drawing.Color.Red;
             this.dataGridViewNhapKho.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(81)))), ((int)(((byte)(181)))));
             this.dataGridViewNhapKho.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dataGridViewNhapKho.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -209,13 +216,14 @@ namespace GUI_QLBanHang
             // 
             // QL_ThongKe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.BackColor = System.Drawing.Color.Pink;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "QL_ThongKe";
-            this.Size = new System.Drawing.Size(913, 619);
+            this.Size = new System.Drawing.Size(1217, 762);
             this.Load += new System.EventHandler(this.QL_ThongKe_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTonKho)).EndInit();

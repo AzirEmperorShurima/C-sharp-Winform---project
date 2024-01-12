@@ -24,3 +24,28 @@ D:\Hoc Hanh\DAMAU\Project\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.csproj
 D:\Hoc Hanh\DAMAU\Project\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.exe
 D:\Hoc Hanh\DAMAU\Project\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.pdb
 D:\Hoc Hanh\DAMAU\Project\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.csproj.CopyComplete
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\GUI_QLBanHang.exe.config
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\GUI_QLBanHang.exe
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\GUI_QLBanHang.pdb
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\BUS_QLBanHang.dll
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\DTO_QLBanHang.dll
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\DAL_QLBanHang.dll
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\BUS_QLBanHang.pdb
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\DTO_QLBanHang.pdb
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\bin\Debug\DAL_QLBanHang.pdb
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.csproj.AssemblyReference.cache
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.frmMain.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.frmThongTinNV.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.QL_ThongKe.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.SendMail.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.Properties.Resources.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.QL_Hang.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.QL_KhachHang.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.frmDangNhap.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.QL_NhanVien.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.frmDoiMatKhau.resources
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.csproj.GenerateResource.cache
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.csproj.CoreCompileInputs.cache
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.csproj.CopyComplete
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.exe
+D:\Winform_CuaHangTienLoi\QLBanHang\GUI_QLBanHang\obj\Debug\GUI_QLBanHang.pdb

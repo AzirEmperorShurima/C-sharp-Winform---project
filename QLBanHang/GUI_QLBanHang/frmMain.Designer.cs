@@ -49,7 +49,6 @@ namespace GUI_QLBanHang
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panelControl = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.menuHuongDan = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.itemHuongDan = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -59,6 +58,7 @@ namespace GUI_QLBanHang
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.itemDoiMatKhau = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2DragControl4 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             this.pnMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbIcon)).BeginInit();
             this.menuHuongDan.SuspendLayout();
@@ -85,9 +85,10 @@ namespace GUI_QLBanHang
             this.pnMenu.Controls.Add(this.pcbIcon);
             this.pnMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnMenu.Location = new System.Drawing.Point(0, 0);
+            this.pnMenu.Margin = new System.Windows.Forms.Padding(4);
             this.pnMenu.Name = "pnMenu";
             this.pnMenu.ShadowDecoration.Parent = this.pnMenu;
-            this.pnMenu.Size = new System.Drawing.Size(208, 654);
+            this.pnMenu.Size = new System.Drawing.Size(277, 805);
             this.pnMenu.TabIndex = 0;
             // 
             // btnTaiKhoan
@@ -107,10 +108,11 @@ namespace GUI_QLBanHang
             this.btnTaiKhoan.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnTaiKhoan.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnTaiKhoan.HoverState.Parent = this.btnTaiKhoan;
-            this.btnTaiKhoan.Location = new System.Drawing.Point(3, 401);
+            this.btnTaiKhoan.Location = new System.Drawing.Point(4, 494);
+            this.btnTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.btnTaiKhoan.Name = "btnTaiKhoan";
             this.btnTaiKhoan.ShadowDecoration.Parent = this.btnTaiKhoan;
-            this.btnTaiKhoan.Size = new System.Drawing.Size(202, 45);
+            this.btnTaiKhoan.Size = new System.Drawing.Size(269, 55);
             this.btnTaiKhoan.TabIndex = 4;
             this.btnTaiKhoan.Text = "Tài Khoản";
             this.btnTaiKhoan.UseTransparentBackground = true;
@@ -122,9 +124,10 @@ namespace GUI_QLBanHang
             // 
             this.lblEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.lblEmail.ForeColor = System.Drawing.Color.DarkTurquoise;
-            this.lblEmail.Location = new System.Drawing.Point(9, 543);
+            this.lblEmail.Location = new System.Drawing.Point(12, 668);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(191, 59);
+            this.lblEmail.Size = new System.Drawing.Size(255, 73);
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "Đăng nhập để sử dụng";
             this.lblEmail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -133,9 +136,10 @@ namespace GUI_QLBanHang
             // 
             this.guna2Separator1.FillColor = System.Drawing.Color.Gray;
             this.guna2Separator1.FillThickness = 2;
-            this.guna2Separator1.Location = new System.Drawing.Point(10, 532);
+            this.guna2Separator1.Location = new System.Drawing.Point(13, 655);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(189, 10);
+            this.guna2Separator1.Size = new System.Drawing.Size(252, 12);
             this.guna2Separator1.TabIndex = 2;
             // 
             // btnLogin
@@ -155,10 +159,11 @@ namespace GUI_QLBanHang
             this.btnLogin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnLogin.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnLogin.HoverState.Parent = this.btnLogin;
-            this.btnLogin.Location = new System.Drawing.Point(5, 605);
+            this.btnLogin.Location = new System.Drawing.Point(7, 745);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.ShadowDecoration.Parent = this.btnLogin;
-            this.btnLogin.Size = new System.Drawing.Size(202, 45);
+            this.btnLogin.Size = new System.Drawing.Size(269, 55);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.UseTransparentBackground = true;
@@ -181,10 +186,11 @@ namespace GUI_QLBanHang
             this.btnHuongDan.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnHuongDan.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnHuongDan.HoverState.Parent = this.btnHuongDan;
-            this.btnHuongDan.Location = new System.Drawing.Point(3, 452);
+            this.btnHuongDan.Location = new System.Drawing.Point(4, 556);
+            this.btnHuongDan.Margin = new System.Windows.Forms.Padding(4);
             this.btnHuongDan.Name = "btnHuongDan";
             this.btnHuongDan.ShadowDecoration.Parent = this.btnHuongDan;
-            this.btnHuongDan.Size = new System.Drawing.Size(202, 45);
+            this.btnHuongDan.Size = new System.Drawing.Size(269, 55);
             this.btnHuongDan.TabIndex = 2;
             this.btnHuongDan.Text = "Hướng Dẫn";
             this.btnHuongDan.UseTransparentBackground = true;
@@ -208,10 +214,11 @@ namespace GUI_QLBanHang
             this.btnThongKe.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnThongKe.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnThongKe.HoverState.Parent = this.btnThongKe;
-            this.btnThongKe.Location = new System.Drawing.Point(3, 248);
+            this.btnThongKe.Location = new System.Drawing.Point(4, 305);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.ShadowDecoration.Parent = this.btnThongKe;
-            this.btnThongKe.Size = new System.Drawing.Size(202, 45);
+            this.btnThongKe.Size = new System.Drawing.Size(269, 55);
             this.btnThongKe.TabIndex = 2;
             this.btnThongKe.Text = "Thống Kê";
             this.btnThongKe.UseTransparentBackground = true;
@@ -235,10 +242,11 @@ namespace GUI_QLBanHang
             this.btnSanPham.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnSanPham.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnSanPham.HoverState.Parent = this.btnSanPham;
-            this.btnSanPham.Location = new System.Drawing.Point(3, 299);
+            this.btnSanPham.Location = new System.Drawing.Point(4, 368);
+            this.btnSanPham.Margin = new System.Windows.Forms.Padding(4);
             this.btnSanPham.Name = "btnSanPham";
             this.btnSanPham.ShadowDecoration.Parent = this.btnSanPham;
-            this.btnSanPham.Size = new System.Drawing.Size(202, 45);
+            this.btnSanPham.Size = new System.Drawing.Size(269, 55);
             this.btnSanPham.TabIndex = 2;
             this.btnSanPham.Text = "Sản Phẩm";
             this.btnSanPham.UseTransparentBackground = true;
@@ -262,10 +270,11 @@ namespace GUI_QLBanHang
             this.btnKhachHang.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnKhachHang.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnKhachHang.HoverState.Parent = this.btnKhachHang;
-            this.btnKhachHang.Location = new System.Drawing.Point(3, 350);
+            this.btnKhachHang.Location = new System.Drawing.Point(4, 431);
+            this.btnKhachHang.Margin = new System.Windows.Forms.Padding(4);
             this.btnKhachHang.Name = "btnKhachHang";
             this.btnKhachHang.ShadowDecoration.Parent = this.btnKhachHang;
-            this.btnKhachHang.Size = new System.Drawing.Size(202, 45);
+            this.btnKhachHang.Size = new System.Drawing.Size(269, 55);
             this.btnKhachHang.TabIndex = 2;
             this.btnKhachHang.Text = "Khách Hàng";
             this.btnKhachHang.UseTransparentBackground = true;
@@ -289,10 +298,11 @@ namespace GUI_QLBanHang
             this.btnNhanVien.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnNhanVien.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnNhanVien.HoverState.Parent = this.btnNhanVien;
-            this.btnNhanVien.Location = new System.Drawing.Point(3, 197);
+            this.btnNhanVien.Location = new System.Drawing.Point(4, 242);
+            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(4);
             this.btnNhanVien.Name = "btnNhanVien";
             this.btnNhanVien.ShadowDecoration.Parent = this.btnNhanVien;
-            this.btnNhanVien.Size = new System.Drawing.Size(202, 45);
+            this.btnNhanVien.Size = new System.Drawing.Size(269, 55);
             this.btnNhanVien.TabIndex = 2;
             this.btnNhanVien.Text = "Nhân Viên";
             this.btnNhanVien.UseTransparentBackground = true;
@@ -304,18 +314,20 @@ namespace GUI_QLBanHang
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
             this.lbl1.ForeColor = System.Drawing.Color.Yellow;
-            this.lbl1.Location = new System.Drawing.Point(6, 129);
+            this.lbl1.Location = new System.Drawing.Point(8, 159);
+            this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(196, 30);
+            this.lbl1.Size = new System.Drawing.Size(249, 74);
             this.lbl1.TabIndex = 2;
-            this.lbl1.Text = "Quản Lý Bán Hàng";
+            this.lbl1.Text = "Quản Lý Bán Hàng \r\nCửa Hàng Tiện Lợi";
             // 
             // pcbIcon
             // 
             this.pcbIcon.Image = global::GUI_QLBanHang.Properties.Resources.product_500px;
-            this.pcbIcon.Location = new System.Drawing.Point(36, 24);
+            this.pcbIcon.Location = new System.Drawing.Point(48, 30);
+            this.pcbIcon.Margin = new System.Windows.Forms.Padding(4);
             this.pcbIcon.Name = "pcbIcon";
-            this.pcbIcon.Size = new System.Drawing.Size(136, 101);
+            this.pcbIcon.Size = new System.Drawing.Size(181, 124);
             this.pcbIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcbIcon.TabIndex = 2;
             this.pcbIcon.TabStop = false;
@@ -327,10 +339,11 @@ namespace GUI_QLBanHang
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(1091, 0);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1479, 0);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 30);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(36, 37);
             this.guna2ControlBox1.TabIndex = 1;
             // 
             // guna2DragControl1
@@ -347,36 +360,27 @@ namespace GUI_QLBanHang
             // 
             // panelControl
             // 
-            this.panelControl.BackgroundImage = global::GUI_QLBanHang.Properties.Resources.fpt;
+            this.panelControl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelControl.BackgroundImage")));
             this.panelControl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelControl.Location = new System.Drawing.Point(214, 33);
+            this.panelControl.Location = new System.Drawing.Point(285, 41);
+            this.panelControl.Margin = new System.Windows.Forms.Padding(4);
             this.panelControl.Name = "panelControl";
-            this.panelControl.Size = new System.Drawing.Size(913, 619);
+            this.panelControl.Size = new System.Drawing.Size(1217, 762);
             this.panelControl.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Brown;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label2.Location = new System.Drawing.Point(204, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(932, 30);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "DỰ ÁN MẪU C# - PS16903_NGUYENTHANH";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.panelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl_Paint);
             // 
             // menuHuongDan
             // 
             this.menuHuongDan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.menuHuongDan.Font = new System.Drawing.Font("Segoe UI Semilight", 13F);
+            this.menuHuongDan.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuHuongDan.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.itemHuongDan,
             this.toolStripSeparator1,
             this.itemGioiThieu});
             this.menuHuongDan.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuHuongDan.Name = "contextMenuStrip1";
-            this.menuHuongDan.Size = new System.Drawing.Size(247, 70);
+            this.menuHuongDan.Size = new System.Drawing.Size(291, 78);
             // 
             // itemHuongDan
             // 
@@ -384,21 +388,21 @@ namespace GUI_QLBanHang
             this.itemHuongDan.ForeColor = System.Drawing.Color.LightCoral;
             this.itemHuongDan.Image = global::GUI_QLBanHang.Properties.Resources.huongdan;
             this.itemHuongDan.Name = "itemHuongDan";
-            this.itemHuongDan.Size = new System.Drawing.Size(246, 30);
+            this.itemHuongDan.Size = new System.Drawing.Size(290, 34);
             this.itemHuongDan.Text = "Hướng dẫn sử dụng";
             this.itemHuongDan.Click += new System.EventHandler(this.itemHuongDan_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(243, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(287, 6);
             // 
             // itemGioiThieu
             // 
             this.itemGioiThieu.ForeColor = System.Drawing.Color.LightCoral;
             this.itemGioiThieu.Image = global::GUI_QLBanHang.Properties.Resources.gioithieu;
             this.itemGioiThieu.Name = "itemGioiThieu";
-            this.itemGioiThieu.Size = new System.Drawing.Size(246, 30);
+            this.itemGioiThieu.Size = new System.Drawing.Size(290, 34);
             this.itemGioiThieu.Text = "Giới thiệu phần mềm";
             this.itemGioiThieu.Click += new System.EventHandler(this.itemGioiThieu_Click);
             // 
@@ -406,13 +410,14 @@ namespace GUI_QLBanHang
             // 
             this.menuTaiKhoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.menuTaiKhoan.Font = new System.Drawing.Font("Segoe UI Semilight", 13F);
+            this.menuTaiKhoan.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuTaiKhoan.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.itemThongTinNV,
             this.toolStripSeparator2,
             this.itemDoiMatKhau});
             this.menuTaiKhoan.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuTaiKhoan.Name = "contextMenuStrip1";
-            this.menuTaiKhoan.Size = new System.Drawing.Size(209, 70);
+            this.menuTaiKhoan.Size = new System.Drawing.Size(244, 78);
             // 
             // itemThongTinNV
             // 
@@ -420,21 +425,21 @@ namespace GUI_QLBanHang
             this.itemThongTinNV.ForeColor = System.Drawing.Color.LightCoral;
             this.itemThongTinNV.Image = global::GUI_QLBanHang.Properties.Resources.hoso;
             this.itemThongTinNV.Name = "itemThongTinNV";
-            this.itemThongTinNV.Size = new System.Drawing.Size(208, 30);
+            this.itemThongTinNV.Size = new System.Drawing.Size(243, 34);
             this.itemThongTinNV.Text = "Hồ sơ nhân viên";
             this.itemThongTinNV.Click += new System.EventHandler(this.itemThongTinNV_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(205, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(240, 6);
             // 
             // itemDoiMatKhau
             // 
             this.itemDoiMatKhau.ForeColor = System.Drawing.Color.LightCoral;
             this.itemDoiMatKhau.Image = global::GUI_QLBanHang.Properties.Resources.password_reset_64px;
             this.itemDoiMatKhau.Name = "itemDoiMatKhau";
-            this.itemDoiMatKhau.Size = new System.Drawing.Size(208, 30);
+            this.itemDoiMatKhau.Size = new System.Drawing.Size(243, 34);
             this.itemDoiMatKhau.Text = "Đổi mật khẩu";
             this.itemDoiMatKhau.Click += new System.EventHandler(this.itemDoiMatKhau_Click);
             // 
@@ -442,18 +447,33 @@ namespace GUI_QLBanHang
             // 
             this.guna2DragControl4.TargetControl = this.label2;
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.AliceBlue;
+            this.label2.Location = new System.Drawing.Point(306, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1209, 37);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Convenience Store Sales Management Project Implemented By CoderLord";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
-            this.ClientSize = new System.Drawing.Size(1135, 654);
+            this.ClientSize = new System.Drawing.Size(1513, 805);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.pnMenu);
             this.Controls.Add(this.panelControl);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý bán hàng";
@@ -485,7 +505,6 @@ namespace GUI_QLBanHang
         private System.Windows.Forms.Panel panelControl;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ContextMenuStrip menuHuongDan;
         private System.Windows.Forms.ToolStripMenuItem itemHuongDan;
         private System.Windows.Forms.ToolStripMenuItem itemGioiThieu;
@@ -497,6 +516,7 @@ namespace GUI_QLBanHang
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem itemDoiMatKhau;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl4;
+        private System.Windows.Forms.Label label2;
     }
 }
 

@@ -29,9 +29,9 @@ namespace GUI_QLBanHang
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.rdoNu = new Guna.UI2.WinForms.Guna2RadioButton();
             this.rdoNam = new Guna.UI2.WinForms.Guna2RadioButton();
             this.txtTenKhach = new Guna.UI2.WinForms.Guna2TextBox();
@@ -44,6 +44,7 @@ namespace GUI_QLBanHang
             this.txtTimKiem = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnShowAll = new Guna.UI2.WinForms.Guna2GradientButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtDiaChi = new System.Windows.Forms.RichTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnBoQua = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnLuu = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -51,7 +52,7 @@ namespace GUI_QLBanHang
             this.btnXoa = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnThem = new Guna.UI2.WinForms.Guna2GradientButton();
             this.dataGridViewKhachHang = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.txtDiaChi = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKhachHang)).BeginInit();
@@ -66,9 +67,10 @@ namespace GUI_QLBanHang
             this.rdoNu.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rdoNu.CheckedState.InnerOffset = -4;
             this.rdoNu.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoNu.Location = new System.Drawing.Point(284, 133);
+            this.rdoNu.Location = new System.Drawing.Point(385, 162);
+            this.rdoNu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdoNu.Name = "rdoNu";
-            this.rdoNu.Size = new System.Drawing.Size(48, 24);
+            this.rdoNu.Size = new System.Drawing.Size(60, 29);
             this.rdoNu.TabIndex = 2;
             this.rdoNu.TabStop = true;
             this.rdoNu.Text = "Nữ";
@@ -87,9 +89,10 @@ namespace GUI_QLBanHang
             this.rdoNam.CheckedState.InnerColor = System.Drawing.Color.White;
             this.rdoNam.CheckedState.InnerOffset = -4;
             this.rdoNam.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoNam.Location = new System.Drawing.Point(164, 132);
+            this.rdoNam.Location = new System.Drawing.Point(219, 162);
+            this.rdoNam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdoNam.Name = "rdoNam";
-            this.rdoNam.Size = new System.Drawing.Size(60, 24);
+            this.rdoNam.Size = new System.Drawing.Size(75, 29);
             this.rdoNam.TabIndex = 2;
             this.rdoNam.TabStop = true;
             this.rdoNam.Text = "Nam";
@@ -98,9 +101,13 @@ namespace GUI_QLBanHang
             this.rdoNam.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.rdoNam.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             this.rdoNam.UseVisualStyleBackColor = true;
+            this.rdoNam.CheckedChanged += new System.EventHandler(this.rdoNam_CheckedChanged);
             // 
             // txtTenKhach
             // 
+            this.txtTenKhach.BorderColor = System.Drawing.Color.IndianRed;
+            this.txtTenKhach.BorderRadius = 10;
+            this.txtTenKhach.BorderThickness = 3;
             this.txtTenKhach.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTenKhach.DefaultText = "";
             this.txtTenKhach.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -114,23 +121,24 @@ namespace GUI_QLBanHang
             this.txtTenKhach.ForeColor = System.Drawing.Color.Black;
             this.txtTenKhach.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTenKhach.HoverState.Parent = this.txtTenKhach;
-            this.txtTenKhach.Location = new System.Drawing.Point(164, 71);
-            this.txtTenKhach.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTenKhach.Location = new System.Drawing.Point(910, 84);
+            this.txtTenKhach.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtTenKhach.Name = "txtTenKhach";
             this.txtTenKhach.PasswordChar = '\0';
             this.txtTenKhach.PlaceholderText = "";
             this.txtTenKhach.SelectedText = "";
             this.txtTenKhach.ShadowDecoration.Parent = this.txtTenKhach;
-            this.txtTenKhach.Size = new System.Drawing.Size(300, 36);
+            this.txtTenKhach.Size = new System.Drawing.Size(470, 44);
             this.txtTenKhach.TabIndex = 1;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 132);
+            this.label5.Location = new System.Drawing.Point(9, 162);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 25);
+            this.label5.Size = new System.Drawing.Size(121, 32);
             this.label5.TabIndex = 0;
             this.label5.Text = "Giới tính: ";
             // 
@@ -138,14 +146,18 @@ namespace GUI_QLBanHang
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 82);
+            this.label2.Location = new System.Drawing.Point(715, 96);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 25);
+            this.label2.Size = new System.Drawing.Size(205, 32);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Tên Nhân Viên: ";
+            this.label2.Text = "Tên Khách Hàng: ";
             // 
             // txtDienThoai
             // 
+            this.txtDienThoai.BorderColor = System.Drawing.Color.IndianRed;
+            this.txtDienThoai.BorderRadius = 10;
+            this.txtDienThoai.BorderThickness = 3;
             this.txtDienThoai.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDienThoai.DefaultText = "";
             this.txtDienThoai.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -159,23 +171,24 @@ namespace GUI_QLBanHang
             this.txtDienThoai.ForeColor = System.Drawing.Color.Black;
             this.txtDienThoai.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDienThoai.HoverState.Parent = this.txtDienThoai;
-            this.txtDienThoai.Location = new System.Drawing.Point(164, 21);
-            this.txtDienThoai.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDienThoai.Location = new System.Drawing.Point(219, 84);
+            this.txtDienThoai.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtDienThoai.Name = "txtDienThoai";
             this.txtDienThoai.PasswordChar = '\0';
             this.txtDienThoai.PlaceholderText = "";
             this.txtDienThoai.SelectedText = "";
             this.txtDienThoai.ShadowDecoration.Parent = this.txtDienThoai;
-            this.txtDienThoai.Size = new System.Drawing.Size(300, 36);
+            this.txtDienThoai.Size = new System.Drawing.Size(436, 44);
             this.txtDienThoai.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(522, 28);
+            this.label4.Location = new System.Drawing.Point(796, 158);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 25);
+            this.label4.Size = new System.Drawing.Size(105, 32);
             this.label4.TabIndex = 0;
             this.label4.Text = "Địa Chỉ: ";
             // 
@@ -183,9 +196,10 @@ namespace GUI_QLBanHang
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 28);
+            this.label1.Location = new System.Drawing.Point(9, 96);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 25);
+            this.label1.Size = new System.Drawing.Size(172, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Số điện thoại: ";
             // 
@@ -205,10 +219,11 @@ namespace GUI_QLBanHang
             this.btnTimKiem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnTimKiem.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnTimKiem.HoverState.Parent = this.btnTimKiem;
-            this.btnTimKiem.Location = new System.Drawing.Point(551, 243);
+            this.btnTimKiem.Location = new System.Drawing.Point(855, 298);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.ShadowDecoration.Parent = this.btnTimKiem;
-            this.btnTimKiem.Size = new System.Drawing.Size(169, 29);
+            this.btnTimKiem.Size = new System.Drawing.Size(225, 36);
             this.btnTimKiem.TabIndex = 8;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseTransparentBackground = true;
@@ -216,6 +231,9 @@ namespace GUI_QLBanHang
             // 
             // txtTimKiem
             // 
+            this.txtTimKiem.BorderColor = System.Drawing.Color.IndianRed;
+            this.txtTimKiem.BorderRadius = 5;
+            this.txtTimKiem.BorderThickness = 2;
             this.txtTimKiem.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTimKiem.DefaultText = "";
             this.txtTimKiem.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -228,14 +246,14 @@ namespace GUI_QLBanHang
             this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.txtTimKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.HoverState.Parent = this.txtTimKiem;
-            this.txtTimKiem.Location = new System.Drawing.Point(4, 243);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTimKiem.Location = new System.Drawing.Point(19, 299);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.PasswordChar = '\0';
             this.txtTimKiem.PlaceholderText = "Nhập tên khách hàng";
             this.txtTimKiem.SelectedText = "";
             this.txtTimKiem.ShadowDecoration.Parent = this.txtTimKiem;
-            this.txtTimKiem.Size = new System.Drawing.Size(537, 29);
+            this.txtTimKiem.Size = new System.Drawing.Size(786, 36);
             this.txtTimKiem.TabIndex = 6;
             // 
             // btnShowAll
@@ -254,10 +272,11 @@ namespace GUI_QLBanHang
             this.btnShowAll.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnShowAll.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnShowAll.HoverState.Parent = this.btnShowAll;
-            this.btnShowAll.Location = new System.Drawing.Point(730, 243);
+            this.btnShowAll.Location = new System.Drawing.Point(1167, 298);
+            this.btnShowAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowAll.Name = "btnShowAll";
             this.btnShowAll.ShadowDecoration.Parent = this.btnShowAll;
-            this.btnShowAll.Size = new System.Drawing.Size(180, 29);
+            this.btnShowAll.Size = new System.Drawing.Size(240, 36);
             this.btnShowAll.TabIndex = 9;
             this.btnShowAll.Text = "Show All";
             this.btnShowAll.UseTransparentBackground = true;
@@ -265,6 +284,8 @@ namespace GUI_QLBanHang
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Pink;
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtDiaChi);
             this.groupBox1.Controls.Add(this.rdoNu);
             this.groupBox1.Controls.Add(this.rdoNam);
@@ -275,13 +296,25 @@ namespace GUI_QLBanHang
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
+            this.groupBox1.Location = new System.Drawing.Point(12, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(907, 170);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1444, 209);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chỉnh Sửa";
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiaChi.Location = new System.Drawing.Point(910, 138);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(470, 53);
+            this.txtDiaChi.TabIndex = 8;
+            this.txtDiaChi.Text = "";
             // 
             // groupBox2
             // 
@@ -290,9 +323,11 @@ namespace GUI_QLBanHang
             this.groupBox2.Controls.Add(this.btnSua);
             this.groupBox2.Controls.Add(this.btnXoa);
             this.groupBox2.Controls.Add(this.btnThem);
-            this.groupBox2.Location = new System.Drawing.Point(3, 173);
+            this.groupBox2.Location = new System.Drawing.Point(12, 213);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(907, 64);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(1444, 79);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             // 
@@ -300,6 +335,8 @@ namespace GUI_QLBanHang
             // 
             this.btnBoQua.Animated = true;
             this.btnBoQua.BackColor = System.Drawing.Color.Transparent;
+            this.btnBoQua.BorderRadius = 15;
+            this.btnBoQua.BorderThickness = 2;
             this.btnBoQua.CheckedState.Parent = this.btnBoQua;
             this.btnBoQua.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBoQua.CustomImages.Image = global::GUI_QLBanHang.Properties.Resources.boqua;
@@ -312,10 +349,11 @@ namespace GUI_QLBanHang
             this.btnBoQua.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnBoQua.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnBoQua.HoverState.Parent = this.btnBoQua;
-            this.btnBoQua.Location = new System.Drawing.Point(727, 13);
+            this.btnBoQua.Location = new System.Drawing.Point(1170, 15);
+            this.btnBoQua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBoQua.Name = "btnBoQua";
             this.btnBoQua.ShadowDecoration.Parent = this.btnBoQua;
-            this.btnBoQua.Size = new System.Drawing.Size(169, 45);
+            this.btnBoQua.Size = new System.Drawing.Size(225, 55);
             this.btnBoQua.TabIndex = 3;
             this.btnBoQua.Text = "Bỏ Qua";
             this.btnBoQua.UseTransparentBackground = true;
@@ -325,6 +363,8 @@ namespace GUI_QLBanHang
             // 
             this.btnLuu.Animated = true;
             this.btnLuu.BackColor = System.Drawing.Color.Transparent;
+            this.btnLuu.BorderRadius = 15;
+            this.btnLuu.BorderThickness = 2;
             this.btnLuu.CheckedState.Parent = this.btnLuu;
             this.btnLuu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLuu.CustomImages.Image = global::GUI_QLBanHang.Properties.Resources.luu;
@@ -337,10 +377,11 @@ namespace GUI_QLBanHang
             this.btnLuu.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnLuu.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnLuu.HoverState.Parent = this.btnLuu;
-            this.btnLuu.Location = new System.Drawing.Point(548, 12);
+            this.btnLuu.Location = new System.Drawing.Point(881, 15);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.ShadowDecoration.Parent = this.btnLuu;
-            this.btnLuu.Size = new System.Drawing.Size(169, 45);
+            this.btnLuu.Size = new System.Drawing.Size(225, 55);
             this.btnLuu.TabIndex = 3;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseTransparentBackground = true;
@@ -350,6 +391,8 @@ namespace GUI_QLBanHang
             // 
             this.btnSua.Animated = true;
             this.btnSua.BackColor = System.Drawing.Color.Transparent;
+            this.btnSua.BorderRadius = 15;
+            this.btnSua.BorderThickness = 2;
             this.btnSua.CheckedState.Parent = this.btnSua;
             this.btnSua.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSua.CustomImages.Image = global::GUI_QLBanHang.Properties.Resources.sua;
@@ -362,10 +405,11 @@ namespace GUI_QLBanHang
             this.btnSua.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnSua.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnSua.HoverState.Parent = this.btnSua;
-            this.btnSua.Location = new System.Drawing.Point(369, 13);
+            this.btnSua.Location = new System.Drawing.Point(592, 15);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSua.Name = "btnSua";
             this.btnSua.ShadowDecoration.Parent = this.btnSua;
-            this.btnSua.Size = new System.Drawing.Size(169, 45);
+            this.btnSua.Size = new System.Drawing.Size(225, 55);
             this.btnSua.TabIndex = 3;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseTransparentBackground = true;
@@ -375,6 +419,8 @@ namespace GUI_QLBanHang
             // 
             this.btnXoa.Animated = true;
             this.btnXoa.BackColor = System.Drawing.Color.Transparent;
+            this.btnXoa.BorderRadius = 15;
+            this.btnXoa.BorderThickness = 2;
             this.btnXoa.CheckedState.Parent = this.btnXoa;
             this.btnXoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoa.CustomImages.Image = global::GUI_QLBanHang.Properties.Resources.xoa;
@@ -387,10 +433,11 @@ namespace GUI_QLBanHang
             this.btnXoa.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnXoa.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnXoa.HoverState.Parent = this.btnXoa;
-            this.btnXoa.Location = new System.Drawing.Point(190, 13);
+            this.btnXoa.Location = new System.Drawing.Point(304, 15);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.ShadowDecoration.Parent = this.btnXoa;
-            this.btnXoa.Size = new System.Drawing.Size(169, 45);
+            this.btnXoa.Size = new System.Drawing.Size(225, 55);
             this.btnXoa.TabIndex = 3;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseTransparentBackground = true;
@@ -400,6 +447,8 @@ namespace GUI_QLBanHang
             // 
             this.btnThem.Animated = true;
             this.btnThem.BackColor = System.Drawing.Color.Transparent;
+            this.btnThem.BorderRadius = 15;
+            this.btnThem.BorderThickness = 2;
             this.btnThem.CheckedState.Parent = this.btnThem;
             this.btnThem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThem.CustomImages.Image = global::GUI_QLBanHang.Properties.Resources.them;
@@ -412,10 +461,11 @@ namespace GUI_QLBanHang
             this.btnThem.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnThem.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnThem.HoverState.Parent = this.btnThem;
-            this.btnThem.Location = new System.Drawing.Point(11, 12);
+            this.btnThem.Location = new System.Drawing.Point(15, 15);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnThem.Name = "btnThem";
             this.btnThem.ShadowDecoration.Parent = this.btnThem;
-            this.btnThem.Size = new System.Drawing.Size(169, 45);
+            this.btnThem.Size = new System.Drawing.Size(225, 55);
             this.btnThem.TabIndex = 3;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseTransparentBackground = true;
@@ -427,36 +477,37 @@ namespace GUI_QLBanHang
             this.dataGridViewKhachHang.AllowUserToDeleteRows = false;
             this.dataGridViewKhachHang.AllowUserToResizeColumns = false;
             this.dataGridViewKhachHang.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(203)))), ((int)(((byte)(232)))));
-            this.dataGridViewKhachHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(203)))), ((int)(((byte)(232)))));
+            this.dataGridViewKhachHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewKhachHang.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridViewKhachHang.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SunkenHorizontal;
             this.dataGridViewKhachHang.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dataGridViewKhachHang.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(81)))), ((int)(((byte)(181)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewKhachHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(81)))), ((int)(((byte)(181)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewKhachHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewKhachHang.ColumnHeadersHeight = 25;
             this.dataGridViewKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewKhachHang.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(220)))), ((int)(((byte)(239)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 13F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(220)))), ((int)(((byte)(239)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewKhachHang.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(220)))), ((int)(((byte)(239)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 13F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(220)))), ((int)(((byte)(239)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewKhachHang.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewKhachHang.EnableHeadersVisualStyles = false;
             this.dataGridViewKhachHang.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(201)))), ((int)(((byte)(231)))));
-            this.dataGridViewKhachHang.Location = new System.Drawing.Point(3, 278);
+            this.dataGridViewKhachHang.Location = new System.Drawing.Point(18, 342);
+            this.dataGridViewKhachHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewKhachHang.Name = "dataGridViewKhachHang";
             this.dataGridViewKhachHang.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridViewKhachHang.RowHeadersVisible = false;
@@ -464,7 +515,7 @@ namespace GUI_QLBanHang
             this.dataGridViewKhachHang.RowTemplate.DividerHeight = 2;
             this.dataGridViewKhachHang.RowTemplate.Height = 30;
             this.dataGridViewKhachHang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewKhachHang.Size = new System.Drawing.Size(907, 338);
+            this.dataGridViewKhachHang.Size = new System.Drawing.Size(1438, 500);
             this.dataGridViewKhachHang.TabIndex = 12;
             this.dataGridViewKhachHang.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Indigo;
             this.dataGridViewKhachHang.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(203)))), ((int)(((byte)(232)))));
@@ -490,18 +541,22 @@ namespace GUI_QLBanHang
             this.dataGridViewKhachHang.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dataGridViewKhachHang.Click += new System.EventHandler(this.dataGridViewKhachHang_Click);
             // 
-            // txtDiaChi
+            // label3
             // 
-            this.txtDiaChi.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiaChi.Location = new System.Drawing.Point(622, 21);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(264, 136);
-            this.txtDiaChi.TabIndex = 8;
-            this.txtDiaChi.Text = "";
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(509, 19);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(400, 48);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Customer Managements";
             // 
             // QL_KhachHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.Controls.Add(this.dataGridViewKhachHang);
@@ -510,8 +565,9 @@ namespace GUI_QLBanHang
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.btnShowAll);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "QL_KhachHang";
-            this.Size = new System.Drawing.Size(913, 619);
+            this.Size = new System.Drawing.Size(1473, 857);
             this.Load += new System.EventHandler(this.QL_KhachHang_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -542,5 +598,6 @@ namespace GUI_QLBanHang
         private Guna.UI2.WinForms.Guna2GradientButton btnThem;
         private Guna.UI2.WinForms.Guna2DataGridView dataGridViewKhachHang;
         private System.Windows.Forms.RichTextBox txtDiaChi;
+        private System.Windows.Forms.Label label3;
     }
 }

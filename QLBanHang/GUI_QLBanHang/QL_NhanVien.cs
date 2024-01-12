@@ -230,5 +230,20 @@ namespace GUI_QLBanHang
                 }
             }else msgBox("Vui lòng nhập tên cần tìm kiếm", true);
         }
+
+        private void dataGridViewNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txttimkiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
