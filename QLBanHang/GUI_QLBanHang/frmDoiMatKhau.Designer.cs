@@ -59,7 +59,7 @@ namespace GUI_QLBanHang
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.HoverState.Parent = this.txtEmail;
             this.txtEmail.Location = new System.Drawing.Point(441, 132);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(5);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
             this.txtEmail.PlaceholderText = "";
@@ -112,7 +112,7 @@ namespace GUI_QLBanHang
             this.txtMatKhauCu.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMatKhauCu.HoverState.Parent = this.txtMatKhauCu;
             this.txtMatKhauCu.Location = new System.Drawing.Point(441, 224);
-            this.txtMatKhauCu.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtMatKhauCu.Margin = new System.Windows.Forms.Padding(5);
             this.txtMatKhauCu.Name = "txtMatKhauCu";
             this.txtMatKhauCu.PasswordChar = '\0';
             this.txtMatKhauCu.PlaceholderText = "";
@@ -151,7 +151,7 @@ namespace GUI_QLBanHang
             this.txtMatKhauMoi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMatKhauMoi.HoverState.Parent = this.txtMatKhauMoi;
             this.txtMatKhauMoi.Location = new System.Drawing.Point(441, 317);
-            this.txtMatKhauMoi.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtMatKhauMoi.Margin = new System.Windows.Forms.Padding(5);
             this.txtMatKhauMoi.Name = "txtMatKhauMoi";
             this.txtMatKhauMoi.PasswordChar = '\0';
             this.txtMatKhauMoi.PlaceholderText = "";
@@ -189,7 +189,7 @@ namespace GUI_QLBanHang
             this.txtMatKhauMoi2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMatKhauMoi2.HoverState.Parent = this.txtMatKhauMoi2;
             this.txtMatKhauMoi2.Location = new System.Drawing.Point(441, 404);
-            this.txtMatKhauMoi2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtMatKhauMoi2.Margin = new System.Windows.Forms.Padding(5);
             this.txtMatKhauMoi2.Name = "txtMatKhauMoi2";
             this.txtMatKhauMoi2.PasswordChar = '\0';
             this.txtMatKhauMoi2.PlaceholderText = "";
@@ -212,8 +212,8 @@ namespace GUI_QLBanHang
             this.btnDoiMatKhau.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnDoiMatKhau.ForeColor = System.Drawing.Color.Yellow;
             this.btnDoiMatKhau.HoverState.Parent = this.btnDoiMatKhau;
-            this.btnDoiMatKhau.Location = new System.Drawing.Point(507, 518);
-            this.btnDoiMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDoiMatKhau.Location = new System.Drawing.Point(547, 514);
+            this.btnDoiMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.btnDoiMatKhau.Name = "btnDoiMatKhau";
             this.btnDoiMatKhau.ShadowDecoration.Parent = this.btnDoiMatKhau;
             this.btnDoiMatKhau.Size = new System.Drawing.Size(488, 44);
@@ -231,9 +231,9 @@ namespace GUI_QLBanHang
             this.label5.Location = new System.Drawing.Point(571, 33);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(398, 64);
+            this.label5.Size = new System.Drawing.Size(411, 64);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Change Password\r\n";
+            this.label5.Text = "Change Password ";
             // 
             // frmDoiMatKhau
             // 
@@ -255,7 +255,7 @@ namespace GUI_QLBanHang
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDoiMatKhau";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Đổi Mật Khẩu";

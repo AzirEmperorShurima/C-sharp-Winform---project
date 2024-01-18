@@ -3,9 +3,8 @@
     "",
     "\\Database",
     "\\QLBanHang",
-    "\\QLBanHang\\BUS_QLBanHang\\Properties",
     "\\QLBanHang\\GUI_QLBanHang"
   ],
-  "SelectedNode": "\\Database\\DBQLBanHang.ldf",
+  "SelectedNode": "\\QLBanHang\\GUI_QLBanHang\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

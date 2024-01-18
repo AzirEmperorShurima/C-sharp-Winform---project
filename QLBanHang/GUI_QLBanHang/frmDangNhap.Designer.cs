@@ -45,7 +45,7 @@ namespace GUI_QLBanHang
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(468, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(443, 13);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(378, 123);
@@ -55,8 +55,9 @@ namespace GUI_QLBanHang
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 25.75F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(133, 140);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -69,26 +70,26 @@ namespace GUI_QLBanHang
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(104, 232);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 37);
+            this.label2.Size = new System.Drawing.Size(83, 37);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Email: ";
+            this.label2.Text = "Email";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(104, 317);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(146, 37);
+            this.label3.Size = new System.Drawing.Size(132, 37);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Password: ";
+            this.label3.Text = "Password";
             // 
             // txtEmail
             // 
@@ -108,7 +109,7 @@ namespace GUI_QLBanHang
             this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.HoverState.Parent = this.txtEmail;
-            this.txtEmail.Location = new System.Drawing.Point(358, 225);
+            this.txtEmail.Location = new System.Drawing.Point(326, 225);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
@@ -137,7 +138,7 @@ namespace GUI_QLBanHang
             this.txtMatKhau.ForeColor = System.Drawing.Color.Black;
             this.txtMatKhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMatKhau.HoverState.Parent = this.txtMatKhau;
-            this.txtMatKhau.Location = new System.Drawing.Point(358, 317);
+            this.txtMatKhau.Location = new System.Drawing.Point(326, 317);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '\0';
@@ -156,8 +157,8 @@ namespace GUI_QLBanHang
             this.chkGhiNho.CheckedState.BorderThickness = 0;
             this.chkGhiNho.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.chkGhiNho.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkGhiNho.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.chkGhiNho.Location = new System.Drawing.Point(252, 400);
+            this.chkGhiNho.ForeColor = System.Drawing.Color.White;
+            this.chkGhiNho.Location = new System.Drawing.Point(326, 400);
             this.chkGhiNho.Margin = new System.Windows.Forms.Padding(4);
             this.chkGhiNho.Name = "chkGhiNho";
             this.chkGhiNho.Size = new System.Drawing.Size(187, 29);
@@ -173,6 +174,7 @@ namespace GUI_QLBanHang
             // 
             this.llblQuenMatKhau.AutoSize = true;
             this.llblQuenMatKhau.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.llblQuenMatKhau.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.llblQuenMatKhau.Location = new System.Drawing.Point(684, 400);
             this.llblQuenMatKhau.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llblQuenMatKhau.Name = "llblQuenMatKhau";
@@ -195,7 +197,7 @@ namespace GUI_QLBanHang
             this.btnDangNhap.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnDangNhap.ForeColor = System.Drawing.Color.White;
             this.btnDangNhap.HoverState.Parent = this.btnDangNhap;
-            this.btnDangNhap.Location = new System.Drawing.Point(382, 490);
+            this.btnDangNhap.Location = new System.Drawing.Point(399, 496);
             this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.ShadowDecoration.Parent = this.btnDangNhap;
@@ -209,8 +211,8 @@ namespace GUI_QLBanHang
             this.AcceptButton = this.btnDangNhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1171, 638);
+            this.BackColor = System.Drawing.Color.Firebrick;
+            this.ClientSize = new System.Drawing.Size(1075, 638);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.llblQuenMatKhau);
             this.Controls.Add(this.chkGhiNho);
